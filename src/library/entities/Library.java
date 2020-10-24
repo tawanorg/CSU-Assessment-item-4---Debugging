@@ -248,6 +248,7 @@ public class Library implements Serializable, ILibrary {
 			long daysOverDue = Calendar.getInstance().getDaysDifference(dueDate);
 			fine = daysOverDue * FINE_PER_DAY;
 		}
+
 		return fine;
 	}
 
