@@ -33,7 +33,7 @@ public class CalendarTest {
 
     @Test()
     @DisplayName("Test: get number of day different between next 5 days and today")
-    void testGetDaysDifferenceFromLastWeek() {
+    void testGetDaysDifferenceNextFiveDays() {
         int numberOfTargetDate = 5;
         calendar.incrementDate(numberOfTargetDate);
 
